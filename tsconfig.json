@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "es6",
+    "target": "es6",
+    "allowJs": true,
+    "noImplicitAny": true,
+    "lib": [
+      "ES2021.String"
+    ]
+  },
+  "include": [
+    "src/js/**/*"
+  ]
+}

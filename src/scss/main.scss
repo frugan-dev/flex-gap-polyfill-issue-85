@@ -1,0 +1,9 @@
+@import "~bootstrap/scss/bootstrap";
+
+//https://jakearchibald.com/2022/img-aspect-ratio/
+//https://www.andreaverlicchi.eu/aspect-ratio-modern-reserve-space-lazy-images-async-content-responsive-design/
+img[width][height] {
+  height: auto;
+  //FIXME - https://github.com/gavinmcfarland/flex-gap-polyfill/issues/85
+  aspect-ratio: attr(width) / attr(height);
+}
